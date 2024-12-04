@@ -1,0 +1,338 @@
+/* design css file  */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: tahoma;
+    box-sizing: border-box;
+    scroll-padding: 10%;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    box-sizing: border-box;
+}
+.top{
+    display: flex;
+    justify-content:space-between;
+    width: 99%;
+
+}
+
+.top ul {
+    list-style-type:none ;
+    display:flex;
+
+    
+}
+
+.top ul li{
+    border-right: .5px solid rgb(255, 255, 255);
+    padding: 0px;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 18px;
+}
+
+.top ul li a {
+    text-decoration: None;
+    color: rgb(7, 5, 5);
+}
+
+.thehead{
+    display: flex;
+    justify-content: space-between;
+    padding: auto 10px;
+    position: sticky;
+    top: 0%;
+    z-index: 500;
+    background-color: #858f98;
+    
+}
+.thehead h2{
+    font-weight: 800;
+    padding-left: 5px;
+}
+
+
+.thehead ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.thehead nav{
+    font-size: 20px;
+    padding: 2px 8px 0px 0px;
+    font-weight: 700;
+    
+    
+}
+
+.thehead ul li {
+    padding: 2px 10px 0px 2px;
+    margin-left: 15px;
+
+}
+
+.thehead ul li :hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    
+}
+.thehead ul li a {
+    text-decoration:none ;    
+    color:black;
+}
+
+.bodys {
+    width: 100%;
+    height: 95vh;
+    background-image: url(business.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    padding-top: 10%;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    text-shadow:7px 2px 5px rgb(0, 0, 0);
+}
+
+.bodys .bodyh{
+    font-weight: 900;
+    font-size: 75px;
+
+}
+
+.bodys {
+    font-size: 30px;
+    font-weight: 700;
+}
+/* 
+form{
+   
+    position: relative;
+    left:37%;
+    color:black;
+   max-width: fit-content;
+   font-size: 25px;
+   background-color: transparent;
+    text-shadow: none;
+    margin-top: 15px;
+    border-radius: 5px;
+    
+    padding: 1px;
+} */
+
+ 
+form button{
+    font-size: 20px;
+    color: #858f98;
+    padding:0px 4px;
+    height: 40px;
+    /* border-radius: 15px; */
+    /* background-color: #858f98; */
+    
+
+}
+
+.bodys form button :hover{
+   
+    color: white;
+    cursor: pointer;
+
+}
+ 
+
+ .servicecards{
+    display: inline-flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -25px;
+    margin-bottom: 5%;
+   
+
+ }
+
+.servicecards .card {
+    border: 2px solid black;
+    max-width: 20%;
+    text-align: Center;
+   
+    align-items: center;
+    padding: 1%;
+    box-shadow: 5px 5px 5px grey;
+    
+    
+}
+    
+
+.servicecards .card i{
+    font-size: 40px;
+    color: #858f98;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    
+}
+.book{
+    background-color: #858f98;
+    color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding:5px;
+}
+.book :hover {
+    background-color: #858f98;
+    color: white;
+}
+.servicecards :hover{
+    background-color: #b3bdc5;
+    color: #ffffff;
+  
+    
+}
+
+.servicecards :hover i{
+    color: rgb(0, 0, 0);
+    
+}
+
+.servicecards :hover .book{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    position: static;
+    bottom: 1px;
+    width: 100%;
+    background-color: #858f98;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.foot2{
+    position: relative;
+    bottom: 1px;
+    width: 100%;
+    background-color: #858f98;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+table, th, td {
+    border-collapse: collapse;
+    
+}
+
+th, td { 
+    border: 0px solid blue;
+
+}
+
+td {
+    padding: 10px;
+}
+table{
+    width:98%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+table th{
+    background-color: rgb(84, 90, 88);
+    padding: 10px;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color:#f2f2f2;
+}
+table tr:hover{
+background-color:rgb(161, 180, 197);
+}
+
+
+main .bodys .aboutus{
+    margin-left: 2%;
+    margin-bottom: 20px;
+}
+
+section{
+    margin-left: 10px;
+}
+
+main .lists{
+    margin-top: 10px;
+}
+
+main .lists h2{
+    border-bottom: 2px solid black;
+}
+
+main .lists dl{
+    margin-bottom: 30px;
+}
+
+main .lists dl dt{
+    
+    padding: 5px;
+    background-color: aliceblue;
+}
+
+main .lists dl dd{
+    
+    background-color: aliceblue;
+}
+
+.tabls h3 {
+    margin-top: 4%;
+    margin-left: 1%;
+}
+.redirect{
+    margin-left: 1%;
+}
+
+.up{
+    padding:0px 15px;
+    border-radius: 70%;
+    position: relative;
+    bottom: -130px;
+    right: 10px;
+    background-color:yellow;
+    
+}
+
+.up a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+}
+ 
+
+.crsl h3{
+    color: #0a77d6;
+    font-family:Elegant;
+    font-weight: 700;
+    margin-left: 30%;
+
+
+}
